@@ -177,8 +177,14 @@
             <img src="images/github-character.png" height="64" width="64"/> GitHub</a>
         <a href="https://codepen.io/search/pens?q=marcia%20tobias&page=1&order=popularity&depth=everything" target="_blank" class="btn contact-details">
             <img src="images/3d-outlined-shape.png" height="64" width="64"/> Code Pen</a>
-        <a href="mailto:marciaatobiass@gmail.com" class="btn contact-details">
-            <img src="images/envelope.png" height="64" width="64"/> Send a mail</a>
+        
+        <!-- Hidinhg email address from spam harvesters-->
+        <a href="#" class="cryptedmail btn contact-details"
+           data-name="marciaatobiass"
+           data-domain="gmail"
+           data-tld="com"
+           onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+        <img src="images/envelope.png" height="64" width="64"/> Send a mail</a>
     </div>
 </section>
 
