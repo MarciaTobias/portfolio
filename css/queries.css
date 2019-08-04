@@ -3,6 +3,10 @@
     [class*="col-xs-*"] {
         width: 100%;
     }
+    
+    .btn-show-all {
+        padding: .9rem 4rem;
+    }
 
 }
 
