@@ -22,9 +22,23 @@ body {
     cursor: pointer;
 }
 
+/*
 .collapse:not(.show) {
     display: none;
 }
+*/
+
+/*
+#navbarSupportedContent20 {
+    display: none;
+}
+*/
+
+/*
+#navbarSupportedContent20.active {
+    display:block;
+}
+*/
 
 /* HAMBURGER ICON */
 .animated-icon1 {
