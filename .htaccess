@@ -1,0 +1,25 @@
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 1 month"
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year"
+# Images
+ExpiresByType portfolio/webp "access plus 1 year"
+ExpiresByType hilogame2/mp4 "access plus 1 year"
+ExpiresByType language2/mp4 "access plus 1 year"
+ExpiresByType store2/mp4 "access plus 1 year"
+ExpiresByType 3d-outlined-shape/png "access plus 1 year"
+ExpiresByType envelope/png "access plus 1 year"
+ExpiresByType finger/png "access plus 1 year"
+ExpiresByType github-character/png "access plus 1 year"
+ExpiresByType hand-gesture/png "access plus 1 year"
+ExpiresByType linkedin-sign/png "access plus 1 year"
+ExpiresByType logo5.webp "access plus 1 year"
+ExpiresByType store2/mp4 "access plus 1 year"
+# CSS
+ExpiresByType text/css "access plus 1 month"
+# Javascript
+ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
